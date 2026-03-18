@@ -24,7 +24,7 @@ total_investido = capital + (aporte * meses)
 taxa_cdb = cdi_mensal * perc_cdb
 montante_cdb = (capital * math.pow((1+taxa_cdb),meses))+(aporte * meses )
 lucro_cdb = montante_cdb - total_investido
-montante_cdb_liquido = total_investido +(lucro_cdb * 0,85)
+montante_cdb_liquido = total_investido +(lucro_cdb * 0.85)
 
 #LCI
 taxa_lci = cdi_mensal * perc_lci
